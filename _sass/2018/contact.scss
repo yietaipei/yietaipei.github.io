@@ -1,0 +1,35 @@
+.contact {
+  // opacity: 1;
+
+  .content--wrap {
+    // top: 5%;
+
+    // @media (min-width: 550px) {
+    //  top: 10%;
+    // }
+
+    // @media (min-width: 1000px) {
+    //  top: 10%;
+    // }
+  }
+
+  .content {
+    // width: 80%;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    max-height: $maxHeight;
+    overflow: auto;
+
+    @media (min-width: 400px) {
+      // width: 80%;
+      font-size: 1rem;
+      max-height: 90%;
+    }
+
+    max-width: 500px;
+  }
+
+  .content p {
+    text-align: left;
+  }
+}

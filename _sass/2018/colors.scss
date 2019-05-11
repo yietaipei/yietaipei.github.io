@@ -1,0 +1,10 @@
+$color: (
+  blue: RGBA(75, 95, 132, 1.00),
+  red: rgba(194, 21, 19, 1.00),
+  brown: rgba(78, 49, 56, 1.00),
+  yellow: rgba(236, 222, 159, 1.00)
+  );
+
+@function getColor($colorCode) {
+  @return map-get($color, $colorCode);
+}
