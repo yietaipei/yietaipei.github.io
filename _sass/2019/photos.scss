@@ -1,0 +1,28 @@
+.photos {
+  // opacity: 1;
+
+  .content--wrap {
+    top: 5%;
+
+    @media (min-width: 550px) {
+      top: 5%;
+    }
+  }
+
+  h2, h3 {
+    text-align: left;
+  }
+
+  .content {
+    width: 80%;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    max-height: $maxHeight;
+    overflow: auto;
+    max-width: 1200px;
+  }
+
+  .content img {
+    width: 100%;
+  }
+}

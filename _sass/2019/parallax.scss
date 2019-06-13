@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.masthead, .about, .agenda, .venue, .register, .contact, .photos, .footer {
+  position: relative;
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead {
+  background-image: url("/assets/images/2019/thomas-tucker-116179-unsplash.jpg");
+  min-height: 100%;
+}
+
+.about {
+  background-image: url("https://d1lyrksd8qgyqf.cloudfront.net/asset/yietaipei/background/taipeitech.jpg");
+  // min-height: 400px;
+  min-height: 100%;
+}
+
+.agenda {
+  background-image: url("https://d1lyrksd8qgyqf.cloudfront.net/asset/yietaipei/background/meinonglake.jpg");
+  // min-height: 400px;
+  min-height: 100%;
+}
+
+.venue {
+  // background-image: url("background/meinonglake.jpg");
+  // min-height: 400px;
+  min-height: 100%;
+}
+
+.register {
+  background-image: url("https://d1lyrksd8qgyqf.cloudfront.net/asset/yietaipei/background/redbuilding.jpg");
+  // min-height: 400px;
+  min-height: 100%;
+}
+
+.contact {
+  background-image: url("/assets/images/2019/vernon-raineil-cenzon-1446059-unsplash.jpg");
+  // min-height: 400px;
+  min-height: 100%;
+}
+
+.photos {
+  background-image: url("https://d1lyrksd8qgyqf.cloudfront.net/asset/yietaipei/20181005_group.jpg");
+  // min-height: 400px;
+  min-height: 100%;
+}
+
+.footer {
+  // background-image: url("background/taipei101.jpg");
+  // min-height: 400px;
+  min-height: 100%;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .masthead, .about, .agenda, .venue, .register, .contact, .footer {
+        background-attachment: scroll;
+    }
+}

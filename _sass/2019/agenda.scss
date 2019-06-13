@@ -1,0 +1,47 @@
+.agenda {
+  // opacity: 1;
+
+  .content--wrap {
+    top: 5%;
+
+    @media (min-width: 550px) {
+      top: 10%;
+    }
+  }
+
+  .content {
+    width: 80%;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    max-height: $maxHeight;
+    overflow: auto;
+
+    @media (min-width: 400px) {
+      width: 80%;
+      font-size: 1rem;
+      max-height: 90%;
+    }
+
+    max-width: 1200px;
+  }
+
+  .content table {
+    text-align: left;
+    width: 100%;
+  }
+
+  .content td {
+    width: 33%;
+    min-width: 256px;
+    padding: 0.5rem;
+  }
+
+  .content thead td {
+    text-align: center;
+    border-bottom: 1px solid #000;
+  }
+
+  .content tbody td {
+    vertical-align: top;
+  }
+}
