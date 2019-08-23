@@ -231,7 +231,9 @@ h2 { letter-spacing: 5px; text-transform: uppercase; font: 2rem; color: #111; }
 
 .venue .content { width: 80%; font-size: 0.9rem; line-height: 1.4rem; max-height: 450px; overflow: auto; max-width: 1200px; }
 
-@media (min-width: 400px) { .venue .content { width: 80%; font-size: 1rem; max-height: 90%; } }
+@media (min-width: 400px) { .venue .content { width: 80%; font-size: 1rem; max-height: auto; } }
+
+@media (min-width: 1000px) { .venue .content { line-height: 1.6rem; max-height: 700px; height: 700px; } }
 
 .venue .content img { width: 100%; }
 
