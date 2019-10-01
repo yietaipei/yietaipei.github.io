@@ -7,8 +7,12 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/assets/documents/2019_agenda.pdf</loc>
+<loc>http://localhost:4000/assets/documents/2019_agenda_20190823.pdf</loc>
 <lastmod>2019-08-23T15:01:14+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/documents/2019_agenda_20191001.pdf</loc>
+<lastmod>2019-10-01T13:13:52+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/documents/YIEposter3-0906-print.pdf</loc>
