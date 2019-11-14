@@ -126,7 +126,7 @@ td, th { padding: 0; }
 
 body, html { height: 100%; margin: 0; }
 
-.masthead, .about, .agenda, .venue, .register, .contact, .photos, .footer { position: relative; opacity: 0.7; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+.masthead, .about, .agenda, .venue, .register, .contact, .recap, .footer { position: relative; opacity: 0.7; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
 
 .masthead { background-image: url("/assets/images/2019/thomas-tucker-116179-unsplash.jpg"); min-height: 100%; }
 
@@ -140,7 +140,7 @@ body, html { height: 100%; margin: 0; }
 
 .contact { background-image: url("/assets/images/2019/vernon-raineil-cenzon-1446059-unsplash.jpg"); min-height: 100%; }
 
-.photos { background-image: url("https://d1lyrksd8qgyqf.cloudfront.net/asset/yietaipei/20181005_group.jpg"); min-height: 100%; }
+.recap { background-image: url("https://d1lyrksd8qgyqf.cloudfront.net/asset/yietaipei/20181005_group.jpg"); min-height: 100%; }
 
 .footer { min-height: 100%; }
 
@@ -259,15 +259,9 @@ h2 { letter-spacing: 5px; text-transform: uppercase; font: 2rem; color: #111; }
 
 .contact .content p { text-align: left; }
 
-.photos .content--wrap { top: 5%; }
+.recap .content { width: 80%; font-size: 0.9rem; line-height: 1.4rem; max-height: 450px; overflow: auto; max-width: 1200px; }
 
-@media (min-width: 550px) { .photos .content--wrap { top: 5%; } }
-
-.photos h2, .photos h3 { text-align: left; }
-
-.photos .content { width: 80%; font-size: 0.9rem; line-height: 1.4rem; max-height: 450px; overflow: auto; max-width: 1200px; }
-
-.photos .content img { width: 100%; }
+.recap .content img { width: 100%; }
 
 .footer .content { width: 80%; font-size: 0.9rem; line-height: 1.4rem; max-height: 450px; overflow: auto; max-width: 1200px; }
 
